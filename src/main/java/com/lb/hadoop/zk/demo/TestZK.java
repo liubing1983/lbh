@@ -1,4 +1,4 @@
-package com.lb.zk.demo;
+package com.lb.hadoop.zk.demo;
 
 import java.io.IOException;
 

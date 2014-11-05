@@ -1,4 +1,4 @@
-package com.lb.mr.counter;
+package com.lb.hadoop.mr.counter;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;

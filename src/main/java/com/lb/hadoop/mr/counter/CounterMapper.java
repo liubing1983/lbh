@@ -1,4 +1,4 @@
-package com.lb.mr.counter;
+package com.lb.hadoop.mr.counter;
 
 import java.io.IOException;
 import java.util.regex.Pattern;

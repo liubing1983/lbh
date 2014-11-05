@@ -1,4 +1,4 @@
-package com.lb.mr.wordcount;
+package com.lb.hadoop.mr.wordcount;
 
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.FileSystem;
