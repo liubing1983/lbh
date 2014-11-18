@@ -41,11 +41,11 @@ public class WordCountDriver  extends Configured implements Tool {
         // 设置map类
         job.setMapperClass(WordCountMapper.class);
         // 手动设置reduce个数
-        job.setNumReduceTasks(1);
+        job.setNumReduceTasks(2);
         // 设置reduce类
         job.setReducerClass(WordCountReducer.class);
 
-        //job.setSortComparatorClass(LongWritableDecreasingComparator.class);
+       // job.setSortComparatorClass(LongWritableDecreasingComparator.class);
 
         // map输出key/value类型
         job.setMapOutputKeyClass(Text.class);
