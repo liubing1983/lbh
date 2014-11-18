@@ -275,8 +275,8 @@
         </dependency>
     </dependencies>
 
-
     <build>
+        <defaultGoal>compile</defaultGoal>
         <finalName>lbh</finalName>
         <sourceDirectory>src/main/java</sourceDirectory>
         <testSourceDirectory>src/test/java</testSourceDirectory>
@@ -418,14 +418,7 @@
                             </manifest>
                         </archive>
                         <includes>
-                            <include>com/boco/idc/**</include>
-                            <include>com/boco/util/**</include>
-                            <include>com/boco/DataPlatform/etl/**</include>
-                            <include>com/boco/DataPlatform/impala/**</include>
-                            <include>com/boco/DataPlatform/thrift/**</include>
-                            <include>com/boco/DataPlatform/entity/**</include>
-                            <include>com/boco/DataPlatform/utils/**</include>
-                            <include>com/boco/DataPlatform/schedule/*.class</include>
+                            <include>com/lb/hadoop/**</include>
                             <include>lib/**</include>
                             <include>config/**</include>
                         </includes>
